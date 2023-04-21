@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FBF6C7"
+        android:gravity="center"
+        android:text="What product does Book2U use to wash car?"
+        android:textColor="#D63068"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/alatsi"
+        android:background="#FDFDFD"
+        android:text="Book2U exclusively employs the most professional and safe products for your car, such as Menzerna and Osren."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/faq2" />
+
+
+</FrameLayout>
